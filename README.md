@@ -8,7 +8,9 @@ O Amundsen é um mecanismo de descoberta de dados e metadados para melhorar a pr
 ### Execução do Amundsen
 
 A execução do Amundsen nesse projeto está baseada em Terraform e um EC2.
+
 O Terraform faz a instalação automatica do Amundsen que pode ser acessado logo depois de sua execução através do DNS da EC2 na porta 5000.
+
 A execução do Airflow de forma automática não está contemplada no script.
 
 #### Iniciar e construir a infraestrutura
